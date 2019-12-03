@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>捉迷腸</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js">
+        $(window).load(function() {
+                    $('.bg').parallax({
+                        offsetY: -200
+                    }); //jQuery selector中可以放任何你想要parallax效果的元素}
+
+    </script>
+    <script src="javascripts/jquery-parallax.js">
+        $(window).load(function() {
+                    $('.bg').parallax({
+                        offsetY: -200
+                    }); //jQuery selector中可以放任何你想要parallax效果的元素}
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#nav').localScroll(800);
+
+            //.parallax(xPosition, speedFactor, outerHeight) options:
+            //xPosition - Horizontal position of the element
+            //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+            //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+            $('#intro').parallax("50%", 0.1);
+            $('#second').parallax("50%", 0.1);
+            $('.bg').parallax("50%", 0.4);
+            $('#third').parallax("50%", 0.3);
+
+        })
+
+    </script>
+</head>
+
+<body>
+    <ul id="nav">
+        <li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+        <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+        <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+        <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+    </ul>
+
+    <div id="intro">
+        <div class="story">
+            <div class="float-left">
+                <h2>關於捉迷腸</h2>
+            </div>
+        </div>
+        <!--.story-->
+    </div>
+    <!--#intro-->
+
+    <div id="second">
+        <div class="story">
+            <div class="bg"></div>
+            <div class="float-right">
+                <h2>癌症預防</h2>`
+                <a>保持健康體重及腰圍</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+
+                                <p class="item-intro text-muted"></p>
+                                <p>體重指標</p>
+                                <li>肥胖25以上
+                                    超重 23-24.9
+                                    標準 18.5-22.9
+                                    過輕18.5下</li>
+
+
+                                <p>腰圍(吋)</p>
+                                <li>男 36以上
+                                    女 32以上</li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>抗癌食物</p>
+                <li>橄欖、甘蔗、牛奶、紅鳳菜、芹菜、苦瓜、蘆筍、金針菇</li>
+                <p>規律運動</p>
+                <li>例:籃球 棒球 乒乓球等</li>
+            </div>
+        </div>
+        <!--.story-->
+
+    </div>
+    <!--#second-->
+
+    <div id="third">
+        <div class="story">
+            <div class="float-left">
+                <h2>抗癌密技</h2>
+                <p>十字花科類</p>
+                <li>菠菜、芥菜、油菜、花椰菜、高麗菜、白菜、萵苣、白蘿蔔、青椒</li>
+                <p>洋蔥薑類</p>
+                <li>大蒜、洋蔥、薑</li>
+                <p>黃豆及其他製品</p>
+                <li>豆漿、豆腐、黃豆、糙米飯</li>
+            </div>
+        </div>
+        <!--.story-->
+    </div>
+    <!--#third-->
+
+    <div id="fifth">
+        <div class="story">
+
+
+            <h2>相關治療</h2>
+            <ul>
+                <p>手術治療</p>
+            </ul>
+
+            <li>大腸癌的主要性治療是以手術
+                切除手術治療有完全治癒的機
+                會極高手術的方式根據腫瘤位
+                置有所的不同。</li>
+            <ul>
+                <p>放射療法</p>
+                <li>放射療法是透過高能量
+                    去射死癌細胞或是縮小
+                    腫瘤的方式 放射治療是
+                    從身體外射向腫瘤。</li>
+                
+            <ul>
+                    <p>化學療法</p>
+                    <li>化學治療的時機及組合
+                        會因病人病情的不同而
+                        不同，安排在手術前或
+                        後進行手術前安排化療
+                        其目的是縮小癌細胞，
+                        讓手術過程進行更順利，手術後安排。</li>
+                
+            <ul>
+                
+                <p>標靶治療</p>
+                    <li>標靶藥物與一般化療藥物不同，示或抑制腫瘤血管增生對
+癌細胞本身或生長的途徑加以破壞，達到殺死或抑制癌細
+胞生長，並降低對正常細胞的傷害。但是並非所有癌細胞
+都適用標靶治療，在使用標靶藥物前可先進行基因檢測確
+認適合標靶治療後，再開始使用。標靶治療通常會合併化
+學治療在第四期才考慮使用。</li>
+                    </div> <!--.story-->
+        </div>
+        <!--#fifth-->
+</body>
+
+</html>
